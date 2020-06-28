@@ -532,10 +532,10 @@ Wire Wire Line
 Text Label 2250 3850 2    59   ~ 0
 B4
 $Comp
-L Switch:SW_Push SW1
+L Switch:SW_Push S1
 U 1 1 5EFD8F72
 P 2000 4200
-F 0 "SW1" V 2046 4152 50  0000 R CNN
+F 0 "S1" V 2046 4152 50  0000 R CNN
 F 1 "Swt_btl" V 1955 4152 50  0000 R CNN
 F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 2000 4400 50  0001 C CNN
 F 3 "~" H 2000 4400 50  0001 C CNN
@@ -635,7 +635,7 @@ U 1 1 5F005E74
 P 4150 4845
 F 0 "FB1" H 4287 4891 50  0000 L CNN
 F 1 "Bead" H 4287 4800 50  0000 L CNN
-F 2 "" V 4080 4845 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 4845 50  0001 C CNN
 F 3 "~" H 4150 4845 50  0001 C CNN
 	1    4150 4845
 	1    0    0    -1  
@@ -687,9 +687,9 @@ Wire Wire Line
 	4550 5400 5000 5400
 Wire Wire Line
 	5000 4900 5000 4600
-Text Label 4750 5400 2    59   ~ 0
+Text Label 4150 5400 2    59   ~ 0
 D-
-Text Label 4750 5300 2    59   ~ 0
+Text Label 4165 5300 2    59   ~ 0
 D+
 Text Label 4800 4600 3    59   ~ 0
 C5
@@ -723,10 +723,10 @@ U 1 1 5F0277AC
 P 7200 6000
 F 0 "ICSP1" V 7150 6045 50  0000 R CNN
 F 1 "Conn_01x06_Male" V 7263 5612 50  0001 R CNN
-F 2 "" H 7200 6000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7200 6000 50  0001 C CNN
 F 3 "~" H 7200 6000 50  0001 C CNN
 	1    7200 6000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7000 5800 7000 5550
